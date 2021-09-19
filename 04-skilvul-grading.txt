@@ -1,0 +1,10 @@
+BEGIN
+GET nilai awal
+IF nilai awal < 68
+	PRINT nilai awal
+ELSE 
+	IF nilai awal % 5 >= 3
+		PRINT nilai awal + 5 - (nilai awal % 5)
+	ELSE
+		PRINT nilai awal
+END

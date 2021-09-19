@@ -1,0 +1,12 @@
+BEGIN 
+GET string isPalindrome
+SET length of isPalindrome = n
+SET low indexes = 0
+SET high indexes = n-1
+WHILE low indexes < high indexes
+	IF char from low indexes isn't the same as char from high indexes
+		PRINT FALSE
+	ELSE low indexes + 1 and high indexes -1
+ENDWHILE
+PRINT TRUE
+END

@@ -1,0 +1,10 @@
+BEGIN
+GET number
+FOR every number starts from 1 until input number
+	IF number % 3 = 0 THEN
+		PRINT Fizz
+	ELSE IF number % 5 = 0 
+		PRINT Buzz
+	ELSE
+		PRINT number
+END

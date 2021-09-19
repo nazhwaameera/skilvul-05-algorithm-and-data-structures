@@ -1,0 +1,14 @@
+BEGIN
+GET besar temperatur
+GET tipe temperatur asal
+GET tipe temperatur hasil konversi
+IF
+	tipe temperatur asal = fahrenheit
+		PRINT (besar temperatur - 32) * (5/9)
+ELSE IF
+	tipe temperatur asal = kelvin
+		PRINT besar temperatur - 273.15
+ELSE
+	tipe temperatur asal = celcius
+		PRINT besar temperatur
+END
